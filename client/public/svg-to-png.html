@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVG to PNG Converter</title>
+</head>
+<body>
+  <img id="svgImage" src="fashion-ai-icon.svg" style="display:none;" width="32" height="32">
+  <canvas id="canvas" width="32" height="32"></canvas>
+  <script>
+    window.onload = function() {
+      const img = document.getElementById('svgImage');
+      const canvas = document.getElementById('canvas');
+      const ctx = canvas.getContext('2d');
+      
+      img.onload = function() {
+        ctx.drawImage(img, 0, 0, 32, 32);
+        
+        // Convert canvas to PNG data URL
+        const pngDataUrl = canvas.toDataURL('image/png');
+        
+        // Create a link to download the PNG
+        const downloadLink = document.createElement('a');
+        downloadLink.href = pngDataUrl;
+        downloadLink.download = 'favicon.png';
+        downloadLink.textContent = 'Download PNG Favicon';
+        document.body.appendChild(downloadLink);
+        
+        // Automatically click the download link
+        downloadLink.click();
+      };
+    };
+  </script>
+</body>
+</html>

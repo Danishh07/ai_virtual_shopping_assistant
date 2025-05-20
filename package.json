@@ -1,0 +1,35 @@
+{
+  "name": "ai-fashion-shopping-assistant",
+  "version": "1.0.0",
+  "description": "AI-Powered Fashion Shopping Assistant using MERN stack and Google's Gemini API",
+  "main": "index.js",  "scripts": {
+    "start": "node server/server.js",
+    "server": "nodemon server/server.js",
+    "client": "cd client-new ; npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-server": "cd server ; npm install",
+    "install-client": "cd client-new ; npm install",
+    "install-all": "npm install ; npm run install-server && npm run install-client",
+    "generate-favicons": "node generate-favicons.js",
+    "copy-favicon": "node copy-favicon.js",
+    "test-favicon": "powershell -ExecutionPolicy Bypass -File test-favicon.ps1"
+  },
+  "keywords": [
+    "MERN",
+    "MongoDB",
+    "Express",
+    "React",
+    "Node",
+    "AI",
+    "Gemini",
+    "Fashion"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

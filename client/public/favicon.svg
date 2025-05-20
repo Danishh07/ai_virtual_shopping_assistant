@@ -1,0 +1,13 @@
+<!-- Fashion AI favicon with hanger icon and AI letters -->
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Background circle -->
+  <rect width="32" height="32" rx="16" fill="#4f46e5"/>
+  
+  <!-- Hanger icon -->
+  <path d="M24 19.333H8L10.667 12H13.333V8C13.333 7.267 13.933 6.667 14.667 6.667H17.333C18.067 6.667 18.667 7.267 18.667 8V12H21.333L24 19.333Z" fill="white"/>
+  <path d="M8 21.333H24V22.667H8V21.333Z" fill="white"/>
+  
+  <!-- AI text as paths instead of text element -->
+  <path d="M11.5 17L13 13H14L15.5 17H14.5L14.2 16H12.8L12.5 17H11.5ZM13.2 15H13.8L13.5 14L13.2 15Z" fill="#4f46e5"/>
+  <path d="M17 17V13H18V16H20V17H17Z" fill="#4f46e5"/>
+</svg>

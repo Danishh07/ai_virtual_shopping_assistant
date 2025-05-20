@@ -1,0 +1,9 @@
+**/node_modules/
+.env
+FAVICON.md
+start-app.ps1
+implementation-checklist.html
+.vscode/
+.github/
+generate-favicons.js
+copy-favicon.js

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fashion hanger icon -->
+  <circle cx="24" cy="24" r="24" fill="#4f46e5"/>
+  <path d="M36 29H12L16 18H20V12C20 10.9 20.9 10 22 10H26C27.1 10 28 10.9 28 12V18H32L36 29Z" fill="white"/>
+  <path d="M12 32H36V34H12V32Z" fill="white"/>
+  <!-- AI text -->
+  <path d="M17 24L19 18H21L23 24H21.5L21 22.5H19L18.5 24H17ZM19.5 21.5H20.5L20 19.5L19.5 21.5Z" fill="#4f46e5"/>
+  <path d="M24 24V18H25.5V22.5H28V24H24Z" fill="#4f46e5"/>
+</svg>
